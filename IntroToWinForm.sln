@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Controls_Lists", "07_Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_AdditionalForms", "08_AdditionalForms\08_AdditionalForms.csproj", "{D74449E0-DCC3-4FB5-AF92-EE9A81A8132C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_DialogForms", "09_DialogForms\09_DialogForms.csproj", "{63B48954-67DE-459E-B25A-93DE2DC7EB0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_DialogForms", "09_DialogForms\09_DialogForms.csproj", "{63B48954-67DE-459E-B25A-93DE2DC7EB0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_RichTextBox", "10_RichTextBox\10_RichTextBox.csproj", "{A03D2696-4F86-4234-B1C8-E0B46E903349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_RichTextBox", "10_RichTextBox\10_RichTextBox.csproj", "{A03D2696-4F86-4234-B1C8-E0B46E903349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_TreeView_ListView", "11_TreeView_ListView\11_TreeView_ListView.csproj", "{5B168E55-FBC7-4226-A5D5-37EE01D44D59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,18 @@ Global
 		{A03D2696-4F86-4234-B1C8-E0B46E903349}.Release|x64.Build.0 = Release|Any CPU
 		{A03D2696-4F86-4234-B1C8-E0B46E903349}.Release|x86.ActiveCfg = Release|Any CPU
 		{A03D2696-4F86-4234-B1C8-E0B46E903349}.Release|x86.Build.0 = Release|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Debug|x64.Build.0 = Debug|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Debug|x86.Build.0 = Debug|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Release|x64.ActiveCfg = Release|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Release|x64.Build.0 = Release|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Release|x86.ActiveCfg = Release|Any CPU
+		{5B168E55-FBC7-4226-A5D5-37EE01D44D59}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

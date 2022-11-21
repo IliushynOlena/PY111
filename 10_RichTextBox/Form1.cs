@@ -12,6 +12,7 @@ namespace _10_RichTextBox
 {
     public partial class Form1 : Form
     {
+        private string DescktopPath => Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         public Form1()
         {
             InitializeComponent();
@@ -42,14 +43,62 @@ namespace _10_RichTextBox
             richTextBox1.SelectionRightIndent++;
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-           
-        }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            richTextBox1.SelectionBullet = true;
+            richTextBox1.SelectionBullet = checkBox1.Checked;
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            richTextBox1.SaveFile(DescktopPath + @"\doc.rtf", RichTextBoxStreamType.RichText);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            richTextBox1.LoadFile(DescktopPath + @"\doc.rtf", RichTextBoxStreamType.RichText);
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            FontDialog font = new FontDialog();
+
+            if (font.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SelectionFont = font.Font;
+            }
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bulletToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void redToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (redToolStripMenuItem.Checked == true)
+            {
+                this.BackColor = Color.Red;
+            }
+            else
+            {
+                this.BackColor = Color.LightGray;
+            }
+        }
+
+        private void fontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FontDialog font = new FontDialog();
+
+            if (font.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SelectionFont = font.Font;
+            }
         }
     }
 }

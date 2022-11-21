@@ -192,7 +192,7 @@
             "Red",
             "Green",
             "Blue"});
-            this.listBox1.Location = new System.Drawing.Point(1306, 216);
+            this.listBox1.Location = new System.Drawing.Point(1307, 234);
             this.listBox1.Name = "listBox1";
             this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.listBox1.Size = new System.Drawing.Size(442, 414);
