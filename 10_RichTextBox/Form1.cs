@@ -31,6 +31,7 @@ namespace _10_RichTextBox
         private void button3_Click(object sender, EventArgs e)
         {
             richTextBox1.SelectionBackColor = Color.Blue;
+          
         }
 
         private void button4_Click(object sender, EventArgs e)

@@ -18,6 +18,11 @@ namespace _11_TreeView_ListView
             InitializeComponent();
             LoadImageList();
             LoadDirectory(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),dirTree.Nodes);
+            fileList.View = View.Tile;
+
+            fileList.Columns.Add("Name").Width = 300;
+            fileList.Columns.Add("Extension").Width = 300;
+            fileList.Columns.Add("Create").Width = 300;
         }
         void LoadImageList()
         {
@@ -59,7 +64,8 @@ namespace _11_TreeView_ListView
         {
 
             DirectoryInfo dir = new DirectoryInfo(e.Node.Tag.ToString());
-            fileList.Clear();
+            //fileList.Clear();
+            fileList.Items.Clear();//here
             foreach (var file in dir.GetFiles())
             {
                 ListViewItem list = new ListViewItem(file.Name);

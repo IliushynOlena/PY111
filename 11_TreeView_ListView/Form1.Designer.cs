@@ -47,11 +47,11 @@
             this.fileList.HideSelection = false;
             this.fileList.Location = new System.Drawing.Point(973, 59);
             this.fileList.Name = "fileList";
-            this.fileList.Size = new System.Drawing.Size(918, 1009);
+            this.fileList.Size = new System.Drawing.Size(900, 1009);
             this.fileList.TabIndex = 1;
-            this.fileList.TileSize = new System.Drawing.Size(528, 150);
+            this.fileList.TileSize = new System.Drawing.Size(600, 150);
             this.fileList.UseCompatibleStateImageBehavior = false;
-            this.fileList.View = System.Windows.Forms.View.Details;
+            this.fileList.View = System.Windows.Forms.View.Tile;
             // 
             // Form1
             // 
