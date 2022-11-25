@@ -17,7 +17,7 @@ namespace _07_Controls_Lists
         public Form1()
         {
             InitializeComponent();
-
+        
             orders.Add(new Order(rand.Next(1000)));
             orders.Add(new Order(rand.Next(1000)));
             orders.Add(new Order(rand.Next(1000)));
@@ -116,6 +116,11 @@ namespace _07_Controls_Lists
             {
                 checkedListBox1.Items.RemoveAt(checkedListBox1.CheckedIndices[0]);
             }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBox2.MaxLength = 0;
         }
     }
 }
