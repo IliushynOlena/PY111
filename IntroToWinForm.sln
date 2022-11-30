@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_TreeView_ListView", "11_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_TabControls", "12_TabControls\12_TabControls.csproj", "{0B34D9BB-FB33-44D4-A566-66373E90B308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_DragDropContextMenu", "13_DragDropContextMenu\13_DragDropContextMenu.csproj", "{081244F2-492A-4624-AFD6-C752859FB7FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_DragDropContextMenu", "13_DragDropContextMenu\13_DragDropContextMenu.csproj", "{081244F2-492A-4624-AFD6-C752859FB7FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_DataGridView", "14_DataGridView\14_DataGridView.csproj", "{A28B4B0F-E225-498E-98E2-263F9CAF646A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_DataGridView", "14_DataGridView\14_DataGridView.csproj", "{A28B4B0F-E225-498E-98E2-263F9CAF646A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Graphics_GDI", "14_Graphics_GDI\14_Graphics_GDI.csproj", "{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -209,6 +211,18 @@ Global
 		{A28B4B0F-E225-498E-98E2-263F9CAF646A}.Release|x64.Build.0 = Release|Any CPU
 		{A28B4B0F-E225-498E-98E2-263F9CAF646A}.Release|x86.ActiveCfg = Release|Any CPU
 		{A28B4B0F-E225-498E-98E2-263F9CAF646A}.Release|x86.Build.0 = Release|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Debug|x64.Build.0 = Debug|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Debug|x86.Build.0 = Debug|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Release|x64.ActiveCfg = Release|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Release|x64.Build.0 = Release|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Release|x86.ActiveCfg = Release|Any CPU
+		{93A34A74-F965-4C2F-8BFC-A2E43026AFC9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,7 +19,7 @@ namespace _11_TreeView_ListView
             LoadImageList();
             LoadDirectory(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),dirTree.Nodes);
             fileList.View = View.Tile;
-
+           // fileList.SmallImageList.Images.
             fileList.Columns.Add("Name").Width = 300;
             fileList.Columns.Add("Extension").Width = 300;
             fileList.Columns.Add("Create").Width = 300;
